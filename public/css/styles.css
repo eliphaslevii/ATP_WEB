@@ -1,0 +1,85 @@
+.status_color_red
+{
+    background-color: red;
+}
+.status_color_green
+{
+    background-color: green;
+}
+
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+}
+.sclass
+{
+    border: #DCDCDC	 solid 1px;
+    padding: 15px;
+    border-radius: 1%;
+}
+.sclass1
+{
+    border: #DCDCDC	 solid 1px;
+    padding: 15px;
+    padding-bottom: 45px;
+    border-radius: 1%;
+}
+
+.textarea-fd
+{
+    resize: none;
+}
+.imgsize
+{
+    width: 15%;
+}
+@media only screen and (max-width: 600px) {
+    .imgsize
+    {
+        width: 45%;
+    }
+  }
+.mbg0
+{
+    margin-bottom: 0px;
+}
+.mgtop
+{
+    margin-top: 2rem;
+}
+.opacity
+{
+ background: rgba(0,0,0,0.4);
+}
+
+.card-panel
+{
+    border-radius: 5px;
+    border-bottom: solid 1px lightgray;
+    border-top: solid 1px lightgray;
+    border-right: solid 1px lightgray;
+    border-left: solid 1px lightgray;
+    margin-top: 5%;
+    padding: 2%;
+    background-image: linear-gradient(ghostwhite,whitesmoke);
+}
+
+.txtarea
+{
+    resize: none;
+    height: 150px;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
